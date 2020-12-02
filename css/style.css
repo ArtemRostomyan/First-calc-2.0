@@ -470,8 +470,8 @@ input {
   }
   .burger:after {
     position: absolute;
-    left: 10px;
-    bottom: 27px;
+    left: 5px;
+    bottom: 87px;
     content: '';
     width: 30px;
     height: 4px;
@@ -488,8 +488,8 @@ input {
     -webkit-animation: link-animate 3.7s ease 0s infinite normal;
             animation: link-animate 3.7s ease 0s infinite normal;
     position: absolute;
-    left: 10px;
-    bottom: 17px;
+    left: 5px;
+    bottom: 77px;
     content: '';
     width: 30px;
     height: 4px;
@@ -505,14 +505,14 @@ input {
             animation: none;
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
-    bottom: 23px;
+    bottom: 83px;
   }
   .burger.active:after {
     -webkit-animation: none;
             animation: none;
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
-    bottom: 23px;
+    bottom: 83px;
   }
   .footer {
     display: none;
